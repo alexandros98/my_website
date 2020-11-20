@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+
+    <body onload="navbarSelected()" class="headline">
+        <h1 id="yes">Welcome to my website.</h1>
+        <ul>
+            <li><a class="active hvr-sweep-to-right" href="index.html" id="home" onclick="homeColor()">Home</a></li>
+            <li><a href="about_me.html" class="hvr-sweep-to-right" id="about" onclick="aboutmeColor()">About Me</a></li>
+            <li><a href="stuff.html" class="hvr-sweep-to-right" id="stuff" onclick="stuffColor()">Stuff</a></li>
+        </ul>
+        <p>This page will contain random stuff.</p>
+
+        <script src="nav_colors.js"></script>
+        <script src="reveal_pages.js"></script>
+    </body>
+</html>
